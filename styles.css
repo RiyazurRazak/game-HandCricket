@@ -93,9 +93,8 @@ em{
         margin: 0;
     }
     #game img{
-            height : 100px;
-            width: 50px;
-        
+             max-height : 50%;
+             width: 80%; 
     }
     h1 {
         font-size: 15px;
@@ -148,7 +147,7 @@ em{
         margin-top: 40px;
     }
     .play{
-        margin-top: 80px;
+        margin-top: 140px;
     }
     .col-sm-6{
         width: 50%;
