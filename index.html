@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand-Cricket</title>
+
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="" href="odd/logo.ico">
+</head>
+<body>
+    <section id="toss-id">
+        <img class="toss" src="odd/toss.jpg">
+        <button class ="btn bat" onclick="start(), rand_bat()">Bat</button>
+        <button class ="btn bowl" onclick="start() , rand_bowl()">Bowl</button>
+        
+    </section>
+    
+    <section id="game" class="hidden" >
+        
+            
+     <div class="container-fluid">
+     <div class="row">
+       <div class="col-lg-6 col-md-6 col-sm-6 ">
+          <h1 class="_1">Player 1</h1>
+          <h2 class="win"></h2>
+          <img class="player" src="">
+          <h2 class="score1"></h2>
+        </div>
+        <div class=" col-sm-6 col-lg-6 col-md-6 col-sm-6">
+           <h1 class="_2"> Player 2(Bot)</h1>
+           <h2 class="loss"></h2>
+           <img class="bot" src="">
+           <h2 class="score2"></h2>
+      </div>
+       </div>
+       </div>
+     <button class="btn play" onclick="rand()"> Your turn </button>
+        
+        
+    </section>
+    <em>Designed and coded by Riyazur Razak</em>
+<script src="index.js"></script>
+</body>
+</html>

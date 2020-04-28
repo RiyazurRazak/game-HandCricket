@@ -1,0 +1,161 @@
+body{
+    background-image: url(odd/Cricket-Stadium.jpg);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    
+    margin: 0;
+    padding: 0;
+}
+h1{
+      text-align: center;
+      color: rebeccapurple;
+      margin-bottom: 80px;
+}
+h2{
+    margin-left: 90px;
+    margin-top: 10px;
+    color: red;
+    font-weight: bolder;
+    
+}
+.toss {
+    width: 50%;
+    position: relative;
+    float: none;
+    display: block;
+    margin: 80px auto ;
+    margin-bottom: 0;
+}
+.btn{
+    width: 120px;
+    border-radius: 10px;
+    background-color: #faf4f4;
+    color: saddlebrown;
+    position: relative;
+    float: none;
+    display: block;
+    margin:  auto;
+    text-align: center;
+    font-family: sans-serif;
+     margin-top: 30px;
+     margin-bottom: 10px;
+     padding: 7px;
+     font-weight: 600;   
+}
+em{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    color: blue;
+}
+.bat{
+    position: absolute;
+    top: 25rem;
+    left: 25rem;
+    transform: rotate(12deg);
+}
+.bowl{
+
+    position: absolute;
+    top: 25.5rem;
+    left: 50rem;
+    transform: rotate(-12deg);
+    
+    
+}
+.hidden{
+    visibility: hidden;
+    display: none;
+}
+.hide{
+     visibility: hidden;
+     display: none;
+}
+.visible{
+    visibility: visible;
+    display:block ;
+}
+#game img{
+    
+    height: 270px;
+    position: relative;
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+@media only screen and (max-width:800px) {
+
+    body{
+        background-image: url(odd/bg-small.jpg);
+        background-size: cover;
+        margin: 0;
+    }
+    #game img{
+            height : 100px;
+            width: 50px;
+        
+    }
+    h1 {
+        font-size: 15px;
+        margin-top: 30px;
+        text-align: center;
+        color: lawngreen;
+    }
+    h2{
+        font-size: 20px;
+         position: relative;
+         float: none;
+         display: block;
+         margin: 0 auto;
+        
+        text-align:center;
+    }
+    em{
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .bat{
+        width: 90px ;
+        position: relative;
+        left: 0px;
+        top: 100px;
+        transform: rotate(0deg);
+    }
+    .bowl{
+        width: 90px;
+        position: relative;
+        left: 0px;
+        top: 130px;
+        
+        transform: rotate(0deg);
+    }
+    .win {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .loss{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .score1{
+        margin-top: 40px;
+    }
+    .score2{
+        margin-top: 40px;
+    }
+    .play{
+        margin-top: 80px;
+    }
+    .col-sm-6{
+        width: 50%;
+        padding: 0;
+    }
+        
+}
+
+
+
