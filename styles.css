@@ -93,8 +93,9 @@ em{
         margin: 0;
     }
     #game img{
-             height :auto;
-             width: 60%; 
+          width: 50%;
+          height : auto;
+          max-height: 144px;
     }
     h1 {
         font-size: 15px;
@@ -128,26 +129,32 @@ em{
         width: 90px;
         position: relative;
         left: 0px;
-        top: 130px;
-        
+        top: 130px; 
         transform: rotate(0deg);
     }
     .win {
         margin-top: 10px;
         margin-bottom: 30px;
+        margin-left: 20px;
     }
     .loss{
         margin-top: 10px;
         margin-bottom: 30px;
+        margin-left: 20px;
     }
     .score1{
         margin-top: 40px;
+        margin-left: 20px;  
     }
     .score2{
         margin-top: 40px;
+        margin-left: 20px;  
     }
     .play{
-        margin-top: 140px;
+        left: 50px;
+        right: 50px;
+        position: absolute;
+        bottom:  90px;
     }
     .col-sm-6{
         width: 50%;
